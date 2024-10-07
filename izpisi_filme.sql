@@ -1,0 +1,2 @@
+SELECT naslov
+FROM film;
