@@ -11,8 +11,6 @@ def narocila_stranke(id_stranke):
         narocila=narocila
     )
 
-
-
 @bottle.get("/stranke")
 def seznam_strank():
     stranke = Stranka.vse_stranke()
