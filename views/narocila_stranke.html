@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>{{stranka.ime}}</title>
+</head>
+
+<body>
+    
+<h1>Naročila stranke {{stranka.ime}}</h1>
+
+<ol>
+    % for narocilo in narocila:
+    <li>{{narocilo.id_narocila}}: {{narocilo.kolicina}} kosov</li>
+    % end
+</ol>
+
+
+</body>
+</html>
